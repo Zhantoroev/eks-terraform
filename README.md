@@ -9,7 +9,7 @@
 
 ## **Diagram**
 
-![](diagram/eks.png)
+![](terraform-modules/eks_cluster/diagram/eks.png)
 
 ## **Usage**
 ```terraform
@@ -88,9 +88,8 @@ aws eks --region <eks_region> update-kubeconfig --name <eks_name>
 |`eks_name`|EKS Cluster name.|
 |`eks_certificate_authority`|Attribute block containing certificate-authority-data for your cluster.|
 |`eks_endpoint`|Endpoint for your Kubernetes API server.|
+
 <br /><br /><br /><br /><br />
-
-
 -----------------------------------------------------------------------------------------------------
 
 # AWS Networking Terraform module
@@ -102,7 +101,7 @@ aws eks --region <eks_region> update-kubeconfig --name <eks_name>
 
 ## **Diagram**
 
-![](diagram/Network.png)
+![](terraform-modules/networking/diagram/Network.png)
 
 ## **Usage**
 ```terraform
